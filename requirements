@@ -5,5 +5,5 @@ pandas
 matplotlib
 scikit-learn==1.3.2
 streamlit
-matplotlib.pyplo
+matplotlib.pyplot
 matplotlib
