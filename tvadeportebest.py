@@ -85,7 +85,7 @@ def predict_years_remote(scaled_values, scaled_years, scaler, year_scaler, seq_l
 
 # === CONFIGURATION ===
 SEQ_LENGTH = 36
-API_URL = "https://tvadeportebest-working.apps.origins.heritage.africa/v2/models/tvadeportebest/infer"
+API_URL = "https://tvadeportebestdernier-working.apps.origins.heritage.africa/v2/models/tvadeportebestdernier/infer"
 
 # === UTILISATION STREAMLIT ===
 
