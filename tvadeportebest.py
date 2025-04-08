@@ -66,6 +66,8 @@ def predict_years_remote(scaled_values, scaled_years, scaler, year_scaler, seq_l
 
             response = requests.post(api_url, json=payload)
             if response.status_code != 200:
+                # Affichage plus détaillé de l'erreur
+                st.error(f"Erreur d'inférence: {response.status_code} - {response.text}")
                 raise Exception(f"Erreur d'inférence : {response.status_code} - {response.text}")
 
             result = response.json()
