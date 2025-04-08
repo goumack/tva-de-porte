@@ -93,7 +93,7 @@ API_URL = "https://tvadeportebest-working.apps.origins.heritage.africa/v2/models
 st.title("Prédictions mensuelles de la tva de porte")
 
 # Charge et prépare les données
-DATA_PATH = "C:/Users/baye.niang/Downloads/streamlit/SRMT/DGD/SARIMA/TVA DE PORTE/modele avec pytorch/tva_data.csv"  # Indiquer ici le chemin du fichier CSV
+DATA_PATH = "tva_data.csv"  # Indiquer ici le chemin du fichier CSV
 df = load_and_prepare_data(DATA_PATH)
 
 # Affichage des données dans Streamlit
