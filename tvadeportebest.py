@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import requests
-import matplotlib.pyplot as plt
+import matplotlib as plt
 
 # === MinMaxScaler maison ===
 def manual_minmax_scale(arr):
