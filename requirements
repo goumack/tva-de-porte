@@ -5,3 +5,5 @@ pandas
 matplotlib
 scikit-learn==1.3.2
 streamlit
+import matplotlib.pyplot
+   
