@@ -4,3 +4,8 @@ pandas
 requests
 matplotlib
 scikit-learn
+torch
+torchvision
+scikit-learn
+onnxruntime
+streamlit
